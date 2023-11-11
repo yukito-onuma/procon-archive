@@ -38,7 +38,7 @@ jobs:
         cd ../../../.procon-gardener
         jq '.atcoder.repository_path|="."' config.json > tmp
         mv tmp config.json
-        jq '.atcoder.user_id|="jaboshi"' config.json > tmp
+        jq '.atcoder.user_id|="yukito-onuma"' config.json > tmp
         mv tmp config.json
         jq '.atcoder.user_email|="kisaragi.12056@gmail.com"' config.json > tmp
         mv tmp config.json
